@@ -14,7 +14,8 @@ public class Coke extends Food {
     public double getCalories() {
         if (isSparkling) {
             return volumeLiters * 400;
-        }else return volumeLiters * 100;
+        }else
+            return volumeLiters * 100;
     }
 
     @Override

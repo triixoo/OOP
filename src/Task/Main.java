@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Person> name = new ArrayList<>();
         name.add(new Person("Shyngys", "Karaul", 18));
-        name.add(new Person("Nurlan", "Tusupov", 45));
+        name.add(new Person("Nurlan", "Tusupov", 40));
         name.add(new Person("Karaul", "Tusupov", 72));
         name.add(new Person("Diana", "Tusupova", 40));
         name.add(new Person("Didar", "Satybaldy", 18));

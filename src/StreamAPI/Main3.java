@@ -11,7 +11,7 @@ public class Main3 {
             numbers.add(scanner.nextInt());
         }
         int max = numbers.stream()
-                .mapToInt(Integer::intValue)
+                .mapToInt(Integer:: intValue)
                 .max()
                 .orElseThrow();
         System.out.println("нахождения \n" +

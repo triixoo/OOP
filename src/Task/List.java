@@ -18,7 +18,7 @@ public class List {
         list.add(3);
         Collections.sort(list, Collections.reverseOrder());
         for (Integer lists : list) {
-            System.out.print(lists + " ");
+            System.out.print(lists + ", ");
         }
     }
 }
